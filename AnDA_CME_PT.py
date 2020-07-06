@@ -4,7 +4,7 @@
 # In[5]:
 
 
-%magic('load_ext autoreload')
+get_ipython().magic('load_ext autoreload')
 get_ipython().magic('autoreload 2')
 get_ipython().magic('pylab inline')
 get_ipython().magic('matplotlib inline')
