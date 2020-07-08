@@ -24,9 +24,9 @@ from AnDA_codes.AnDA_stat_functions import AnDA_RMSE
 
 
 F_values = array([6,7,9,10]) # F values of the bad L-96 models
-nb_analogs = 200 number of analogs
+nb_analogs = 200 # number of analogs
 nb_dt = 4 # number of dt for the forecast (nb_dt x 0.05 in L96 times)
-nb_Ne = 500 number of ensembles
+nb_Ne = 500 # number of ensembles
 K = 200 # maximum number of times to compute CME
 N_iter = 10 # number of independant observation sets to get confidence intervals
 variance_obs = 1 # variance of the observations
@@ -172,7 +172,7 @@ for i_iter in range(N_iter):
 
 
 save('tab_ME_AnDA_noscaling.npy', tab_ME_AnDA)
-save('tab_yo.npy', yo.time)
+save('tab_yo_noscaling.npy', yo.time)
 
 
 # In[ ]:
