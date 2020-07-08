@@ -12,7 +12,7 @@ import numpy as np
 from scipy.integrate import odeint
 from AnDA_codes.AnDA_dynamical_models import AnDA_Lorenz_63, AnDA_Lorenz_96
 
-def AnDA_generate_data(GD):
+def AnDA_generate_data(GD,seed=True):
     """ Generate the true state, noisy observations and catalog of numerical simulations. """
 
     # initialization
@@ -34,7 +34,7 @@ def AnDA_generate_data(GD):
         print('Error: GD.dt_obs must be a multiple of GD.dt_states');
 
     # use this to generate the same data for different simulations
-    np.random.seed(1);
+    if seed: np.random.seed(1);
     
     if (GD.model == 'Lorenz_63'):
     

@@ -6,8 +6,8 @@
 
 get_ipython().magic('load_ext autoreload')
 get_ipython().magic('autoreload 2')
-get_ipython().magic('pylab inline')
-get_ipython().magic('matplotlib inline')
+#from IPython import get_ipython
+#get_ipython().run_line_magic('matplotlib', 'inline')
 pylab.rcParams['figure.figsize'] = (16, 9)
 
 # analog data assimilation
@@ -23,9 +23,10 @@ from AnDA_codes.AnDA_stat_functions import AnDA_RMSE
 # In[6]:
 
 
-nb_analogs = 200 # number of analogs
+F_values = array([6,7,9,10]) # F values of the bad L-96 models
+nb_analogs = 50# 200 number of analogs
 nb_dt = 4 # number of dt for the forecast (nb_dt x 0.05 in L96 times)
-nb_Ne = 500 # number of ensembles
+nb_Ne = 10# 500 number of ensembles
 K = 200 # maximum number of times to compute CME
 N_iter = 10 # number of independant observation sets to get confidence intervals
 variance_obs = 1 # variance of the observations
@@ -107,6 +108,9 @@ x_hat_analog_good = AnDA_data_assimilation(yo, DA)
 # In[ ]:
 
 
+class yo_iter:
+    values = [];
+    time = [];
 tab_ME_AnDA = zeros([N_iter,len(F_values),K])
 for i_iter in range(N_iter):
     p_iter = int(np.shape(yo.values)[0]/N_iter)
@@ -167,7 +171,7 @@ for i_iter in range(N_iter):
 # In[ ]:
 
 
-save('tab_ME_AnDA.npy', tab_ME_AnDA)
+save('tab_ME_AnDA_noscaling.npy', tab_ME_AnDA)
 
 
 # In[ ]:
@@ -196,5 +200,5 @@ for i_F in range(len(F_values)):
     ylabel('Contextual model evidence (%)', size=25)
     plot(yo.time[0:K], yo.time[0:K]*0+50, '--k', linewidth=2)
     title('Analog data assimilation with observations from F=8', size=30)
-    #savefig('model_evidence_F_6to10_QJRMS.png', bbox_inches='tight', dpi=400)
+    savefig('model_evidence_F_6to10_noscaling_QJRMS.png', bbox_inches='tight', dpi=400)
 
