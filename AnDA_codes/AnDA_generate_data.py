@@ -64,8 +64,8 @@ def AnDA_generate_data(GD,seed=True):
         T_train = S.shape[0];
         eta = np.random.multivariate_normal(np.zeros(3),GD.sigma2_catalog*np.eye(3,3),T_train);
         catalog_tmp = S+eta;
-        catalog.analogs = catalog_tmp[0:-GD.dt_states,:];
-        catalog.successors = catalog_tmp[GD.dt_states:,:]
+        catalog.analogs = catalog_tmp[0:-GD.dt_states:GD.dt_states,:];
+        catalog.successors = catalog_tmp[GD.dt_states::GD.dt_states,:]
         catalog.source = GD.parameters;
     
     elif (GD.model == 'Lorenz_96'):
@@ -97,8 +97,8 @@ def AnDA_generate_data(GD,seed=True):
         T_train = S.shape[0];
         eta = np.random.multivariate_normal(np.zeros(GD.parameters.J),GD.sigma2_catalog*np.eye(GD.parameters.J,GD.parameters.J),T_train);
         catalog_tmp = S+eta;
-        catalog.analogs = catalog_tmp[0:-GD.dt_states,:];
-        catalog.successors = catalog_tmp[GD.dt_states:,:]
+        catalog.analogs = catalog_tmp[0:-GD.dt_states:GD.dt_states,:];
+        catalog.successors = catalog_tmp[GD.dt_states::GD.dt_states,:]
         catalog.source = GD.parameters;
     
     # reinitialize random generator number

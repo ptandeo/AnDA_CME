@@ -7,8 +7,9 @@ Ceci est un script temporaire.
 
 # analog data assimilation
 
-from AnDA_codes.AnDA_analog_forecasting import AnDA_analog_forecasting
+from AnDA_codes.AnDA_analog_forecasting_with_cov_output import AnDA_analog_forecasting
 import numpy as np
+from scipy.stats import multivariate_normal
 
 
 def optimize_nb_analogs(AF,nb_analogs = [50,100,200,300,400,500,750],kfold=5,verbose=False):
@@ -17,6 +18,8 @@ def optimize_nb_analogs(AF,nb_analogs = [50,100,200,300,400,500,750],kfold=5,ver
     lf = np.int(np.floor(T/kfold))
     n  = AF.catalog.successors.shape[1]
     rmse_An = np.zeros([n,len(nb_analogs),kfold])
+    ll_An_all = np.zeros([len(nb_analogs),kfold])
+    ll_An_middle = np.zeros([len(nb_analogs),kfold])
     for v in range(kfold): 
         if verbose: print("Fold ", v+1,"/",kfold)
         i_test = np.arange(v*lf,(v+1)*lf) 
@@ -45,14 +48,21 @@ def optimize_nb_analogs(AF,nb_analogs = [50,100,200,300,400,500,750],kfold=5,ver
             
     
             x_pred_An  = np.zeros((lf,n))
+            cov_An  = np.zeros((lf,n,n))
             for i in range(lf):
                 x0 = catalog_test.analogs[i,:]
                 xf_An, x_pred_An[i,:]  = AnDA_analog_forecasting(x0.reshape((1,n)), AFtmp)
             # comparison to the turth (F=8 test sequence)
             rmse_An[:,j,v]  = np.sqrt(np.mean((catalog_test.successors-x_pred_An)**2,axis=0))
+            ll_An_all[j,v] = np.mean([multivariate_normal.pdf(catalog_test.successors[t,:], mean=x_pred_An[t,:], cov=cov_An[t,:,:]) for t in range(1,T)])
+            ll_An_middle[j,v] =np.mean( [multivariate_normal.pdf(catalog_test.successors[t,2], mean=x_pred_An[t,2], cov=cov_An[t,:,:]) for t in range(1,T)])
+
     rmse_all = np.mean(np.mean(rmse_An,axis=2),axis= 0)
-    k_best = nb_analogs[np.where(rmse_all==np.min(rmse_all))[0][0]]  
-    res = {"k_best": k_best, "rmse": rmse_An, "nb_analogs": nb_analogs}
+    k_best = nb_analogs[np.where(rmse_all==np.min(rmse_all))[0][0]]                                                        
+    k_best_ll = nb_analogs[np.where(ll_An_all==np.min(ll_An_all))[0][0]]  
+    k_best_ll_middle = nb_analogs[np.where(ll_An_middle==np.min(ll_An_middle))[0][0]]  
+    res = {"k_best": k_best, "k_best_ll": k_best_ll, "k_best_ll_middle": k_best_ll_middle, \
+           "rmse": rmse_An, "nb_analogs": nb_analogs}
     return res
 
     

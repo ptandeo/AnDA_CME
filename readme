@@ -12,3 +12,6 @@ AnDA_data_assimilation function: computation of the innovation likelihood at the
 ## 7th july 2020 - Valérie
 AnDA_data_assimilation_temp function (temporary copy of AnDA_data_assimilation function): add the multiplicative adaptive inflation as in Juan's codes. 
 AnDA_generate_data: add the possibility to change the seed (usefull for repetitions)
+
+## 9th july 2020 - Valérie
+AnDA_generate_data function: correction to "align" the catalog on the state time series (GD.dt_states was not taken into account in the generation of the catalog). 
