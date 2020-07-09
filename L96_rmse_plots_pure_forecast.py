@@ -174,7 +174,16 @@ if save_res:
     filename = 'ForecastRMSE.pkl'
     f = open(filename,"wb")
     pickle.dump(DAT,f)
-    f.close()    
+    f.close()
+    
+load_res = False
+#load_res = True
+if load_res:
+    f = open(filename,"rb")
+    DAT = pickle.load(f)
+    f.close()
+    rmse_all, rmse_An_all, rmse_An_middle = DAT["rmse_all"], DAT["rmse_An_all"], DAT["rmse_An_middle"]
+    
 
 """ === Plots === """
 for i_dt, dt_obs in enumerate(dt_obs_values):
@@ -185,7 +194,7 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
     # IC_max = np.array([np.quantile(rmse[:,i_F],0.975) for i_F in range(len(F_values))])
     # plt.fill_between(F_values, IC_min,IC_max,
     #                         color="black", alpha=0.2)
-    plt.plot(F_values,np.array([np.mean(rmse_all[:,i_F,i_dt]) for i_F in range(len(F_values))]),"ko-",label="ode (All components)")
+    plt.plot(F_values,np.array([np.mean(rmse_all[:,i_F,0]) for i_F in range(len(F_values))]),"ko-",label="ode (All components)")
     #plt.plot(F_values,np.array([np.mean(rmse_middle[:,i_F]) for i_F in range(len(F_values))]),"kd:",label="ode")
     
     # IC_min = np.array([np.quantile(rmse_An[:,i_F],0.025) for i_F in range(len(F_values))])

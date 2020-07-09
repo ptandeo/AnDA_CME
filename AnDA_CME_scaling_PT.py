@@ -18,6 +18,7 @@ from AnDA_codes.AnDA_analog_forecasting import AnDA_analog_forecasting
 from AnDA_codes.AnDA_model_forecasting import AnDA_model_forecasting
 from AnDA_codes.AnDA_data_assimilation import AnDA_data_assimilation
 from AnDA_codes.AnDA_stat_functions import AnDA_RMSE
+from sklearn.preprocessing import MinMaxScaler
 
 
 # In[6]:
@@ -74,6 +75,16 @@ class GD:
     sigma2_obs = variance_obs # variance of the observation error to generate observations    
 # run the data generation
 catalog_good, xt, yo = AnDA_generate_data(GD)
+
+# scaling
+std_scaler = MinMaxScaler().fit(catalog_good.analogs)
+catalog_good.analogs = std_scaler.transform(catalog_good.analogs)
+std_scaler = MinMaxScaler().fit(catalog_good.successors)
+catalog_good.successors = std_scaler.transform(catalog_good.successors)
+std_scaler = MinMaxScaler().fit(xt.values)
+xt.values = std_scaler.transform(xt.values)
+std_scaler = MinMaxScaler().fit(yo.values)
+yo.values = std_scaler.transform(yo.values)
 
 # keep only a subset of variables
 catalog_good.analogs = catalog_good.analogs[:,17:22]
@@ -136,6 +147,11 @@ for i_iter in range(N_iter):
             sigma2_obs = variance_obs # variance of the observation error to generate observations    
         # run the data generation
         catalog_bad, tej1, tej2 = AnDA_generate_data(GD)
+        # scaling
+        std_scaler = MinMaxScaler().fit(catalog_bad.analogs)
+        catalog_bad.analogs = std_scaler.transform(catalog_bad.analogs)
+        std_scaler = MinMaxScaler().fit(catalog_bad.successors)
+        catalog_bad.successors = std_scaler.transform(catalog_bad.successors)
         # keep only a subset of variables
         catalog_bad.analogs = catalog_bad.analogs[:,17:22]
         catalog_bad.successors = catalog_bad.successors[:,17:22]
@@ -171,5 +187,5 @@ for i_iter in range(N_iter):
 # In[ ]:
 
 
-save('tab_ME_AnDA_noscaling.npy', tab_ME_AnDA)
-save('tab_yo_noscaling.npy', yo.time)
+save('tab_ME_AnDA_scaling.npy', tab_ME_AnDA)
+save('tab_yo_scaling.npy', yo.time)
