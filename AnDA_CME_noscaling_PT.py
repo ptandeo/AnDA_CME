@@ -24,9 +24,9 @@ from AnDA_codes.AnDA_stat_functions import AnDA_RMSE
 
 
 F_values = array([6,7,9,10]) # F values of the bad L-96 models
-nb_analogs = 50 # number of analogs
+nb_analogs = 200 # number of analogs
 nb_dt = 4 # number of dt for the forecast (nb_dt x 0.05 in L96 times)
-nb_Ne = 20 # number of ensembles
+nb_Ne = 500 # number of ensembles
 K = 200 # maximum number of times to compute CME
 N_iter = 10 # number of independant observation sets to get confidence intervals
 variance_obs = 1 # variance of the observations
@@ -74,11 +74,6 @@ class GD:
     sigma2_obs = variance_obs # variance of the observation error to generate observations    
 # run the data generation
 catalog_good, xt, yo = AnDA_generate_data(GD)
-
-print(shape(catalog_good.analogs))
-print(shape(catalog_good.successors))
-print(shape(xt.values))
-print(shape(yo.values))
 
 # keep only a subset of variables
 catalog_good.analogs = catalog_good.analogs[:,17:22]

@@ -38,7 +38,7 @@ def AnDA_analog_forecasting(x, AF):
             i_var_neighboor = np.where(AF.neighborhood[int(i_var),:]==1)[0]
             
         # find the indices and distances of the k-nearest neighbors (knn)
-        print("i_var_iter = ",i_var_iter)
+#        print("i_var_iter = ",i_var_iter)
         if not AF.initialized :
            if i_var_iter == 0 : 
                AF.kdt=list() 

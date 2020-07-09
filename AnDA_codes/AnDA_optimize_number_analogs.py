@@ -51,11 +51,11 @@ def optimize_nb_analogs(AF,nb_analogs = [50,100,200,300,400,500,750],kfold=5,ver
             cov_An  = np.zeros((lf,n,n))
             for i in range(lf):
                 x0 = catalog_test.analogs[i,:]
-                xf_An, x_pred_An[i,:]  = AnDA_analog_forecasting(x0.reshape((1,n)), AFtmp)
+                xf_An, x_pred_An[i,:], cov_An[i,:,:]  = AnDA_analog_forecasting(x0.reshape((1,n)), AFtmp)
             # comparison to the turth (F=8 test sequence)
             rmse_An[:,j,v]  = np.sqrt(np.mean((catalog_test.successors-x_pred_An)**2,axis=0))
-            ll_An_all[j,v] = np.mean([multivariate_normal.pdf(catalog_test.successors[t,:], mean=x_pred_An[t,:], cov=cov_An[t,:,:]) for t in range(1,T)])
-            ll_An_middle[j,v] =np.mean( [multivariate_normal.pdf(catalog_test.successors[t,2], mean=x_pred_An[t,2], cov=cov_An[t,:,:]) for t in range(1,T)])
+            ll_An_all[j,v] = np.mean([multivariate_normal.pdf(catalog_test.successors[t,:], mean=x_pred_An[t,:], cov=cov_An[t,:,:]) for t in range(1,lf)])
+            ll_An_middle[j,v] =np.mean( [multivariate_normal.pdf(catalog_test.successors[t,2], mean=x_pred_An[t,2], cov=cov_An[t,2,2].reshape(1,1)) for t in range(1,lf)])
 
     rmse_all = np.mean(np.mean(rmse_An,axis=2),axis= 0)
     k_best = nb_analogs[np.where(rmse_all==np.min(rmse_all))[0][0]]                                                        
