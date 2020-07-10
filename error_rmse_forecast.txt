@@ -1,4 +1,4 @@
-  0%|          | 0/1 [00:00<?, ?it/s]F =  5.0
+  0%|          | 0/10 [00:00<?, ?it/s]F =  5.0
 Fold  1 / 5
    nb_analogs =  100
    nb_analogs =  150
@@ -49,8 +49,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 300
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  6.0
 Fold  1 / 5
    nb_analogs =  100
@@ -102,8 +104,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 150
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.0
 Fold  1 / 5
    nb_analogs =  100
@@ -155,8 +159,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.5
 Fold  1 / 5
    nb_analogs =  100
@@ -208,8 +214,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 350
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  8.0
 Fold  1 / 5
    nb_analogs =  100
@@ -261,8 +269,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 350
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  8.5
 Fold  1 / 5
    nb_analogs =  100
@@ -314,8 +324,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  9.0
 Fold  1 / 5
    nb_analogs =  100
@@ -367,8 +379,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 350
-Best nb analogs (component 19) 150
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  10.0
 Fold  1 / 5
    nb_analogs =  100
@@ -382,7 +396,7 @@ Fold  1 / 5
    nb_analogs =  500
 Fold  2 / 5
    nb_analogs =  100
-   nb_analogs =  150
+   nb_analogs =  150 10%|█         | 1/10 [41:08<6:10:15, 2468.39s/it]
    nb_analogs =  200
    nb_analogs =  250
    nb_analogs =  300
@@ -420,8 +434,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 350
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  11.0
 Fold  1 / 5
    nb_analogs =  100
@@ -473,8 +489,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  5.0
 Fold  1 / 5
    nb_analogs =  100
@@ -526,8 +544,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 350
-Best nb analogs (component 19) 350
+Best nb analogs 100
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  6.0
 Fold  1 / 5
    nb_analogs =  100
@@ -579,8 +599,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 250
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.0
 Fold  1 / 5
    nb_analogs =  100
@@ -632,8 +654,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.5
 Fold  1 / 5
    nb_analogs =  100
@@ -685,8 +709,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  8.0
 Fold  1 / 5
    nb_analogs =  100
@@ -738,8 +764,505 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =   20%|██        | 2/10 [1:22:08<5:28:47, 2465.93s/it]300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  30%|███       | 3/10 [2:05:08<4:51:40, 2500.12s/it] 450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  8.5
 Fold  1 / 5
    nb_analogs =  100
@@ -791,8 +1314,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  9.0
 Fold  1 / 5
    nb_analogs =  100
@@ -844,8 +1369,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  10.0
 Fold  1 / 5
    nb_analogs =  100
@@ -897,8 +1424,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 250
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  11.0
 Fold  1 / 5
    nb_analogs =  100
@@ -950,8 +1479,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 200
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  5.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1003,8 +1534,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 400
-Best nb analogs (component 19) 450
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  6.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1056,8 +1589,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 300
+Best nb analogs 150
+Best nb analogs (component 19) 40%|████      | 4/10 [2:50:29<4:16:39, 2566.52s/it] 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1109,8 +1644,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 250
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  7.5
 Fold  1 / 5
    nb_analogs =  100
@@ -1162,8 +1699,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 450
-Best nb analogs (component 19) 250
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  8.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1215,10 +1754,11 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 250
-F = 100%|██████████| 1/1 [2:45:19<00:00, 9919.79s/it]100%|██████████| 1/1 [2:45:19<00:00, 9919.79s/it]
- 8.5
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
 Fold  1 / 5
    nb_analogs =  100
    nb_analogs =  150
@@ -1269,8 +1809,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 300
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  9.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1322,8 +1864,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 250
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  10.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1375,8 +1919,10 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 300
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
 F =  11.0
 Fold  1 / 5
    nb_analogs =  100
@@ -1428,8 +1974,5193 @@ Fold  5 / 5
    nb_analogs =  400
    nb_analogs =  450
    nb_analogs =  500
-Best nb analogs 500
-Best nb analogs (component 19) 300
-0
-1
-2
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  50%|█████     | 5/10 [3:33:36<3:34:22, 2572.47s/it] 200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  60%|██████    | 6/10 [4:14:47<2:49:28, 2542.15s/it] 350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 100
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  70%|███████   | 7/10 [4:55:57<2:06:01, 2520.35s/it] 500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 100
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  80%|████████  | 8/10 [5:36:57<1:23:24, 2502.48s/it] 350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 100
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  90%|█████████ | 9/10 [6:18:02<41:31, 2491.20s/it]   200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 100
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs = 100%|██████████| 10/10 [6:59:12<00:00, 2484.71s/it]100%|██████████| 10/10 [6:59:12<00:00, 2515.24s/it]
+  0%|          | 0/10 [00:00<?, ?it/s] 350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  10%|█         | 1/10 [1:22:40<12:24:03, 4960.41s/it] 200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  20%|██        | 2/10 [2:45:55<11:02:46, 4970.78s/it] 350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  30%|███       | 3/10 [4:08:58<9:40:22, 4974.62s/it]  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  9.0
+Fold  40%|████      | 4/10 [5:33:34<8:20:29, 5004.88s/it] 1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  10.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  11.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  5.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  6.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  7.5
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  3 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  4 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  5 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Best nb analogs 150
+Best nb analogs (component 19) 100
+Best nb analogs (LL) 500
+Best nb analogs (LL, component 19) 500
+F =  8.0
+Fold  1 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs =  200
+   nb_analogs =  250
+   nb_analogs =  300
+   nb_analogs =  350
+   nb_analogs =  400
+   nb_analogs =  450
+   nb_analogs =  500
+Fold  2 / 5
+   nb_analogs =  100
+   nb_analogs =  150
+   nb_analogs = 

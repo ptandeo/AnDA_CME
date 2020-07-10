@@ -29,19 +29,17 @@ from scipy.stats import multivariate_normal
 
 
 """ Configuration """
-nb_loop_train = 10 
-nb_loop_test = 5 
+nb_loop_train = 1000 
+nb_loop_test = 500 
 
 optim_nb_analogs = True
 nb_analogs = [50,100,200,300,400]
 nb_analogs = [100,150,200,250,300,350,400,450,500]
-nb_analogs = [50,100,150]
 
 dt_states = 1 # number of integration times between consecutive states (for xt and catalog)
 dt_obs = 1 # number of integration times between consecutive observations (for yo)
 dt_state = dt_obs
 save_res, save_fig = True, True
-save_res, save_fig = False, False
 
 # # parameters
 class GD:  
@@ -76,7 +74,7 @@ if np.all(global_analog_matrix == 1):
 
 dt_obs_values = [1,2,4]
 F_values = np.array([5,6,7,7.5,8,8.5,9,10,11])
-nb_rep = 5
+nb_rep = 10
 rmse_all, rmse_An_all = np.zeros((nb_rep,len(F_values),len(dt_obs_values))), np.zeros((nb_rep,len(F_values),len(dt_obs_values)))
 rmse_An_middle = np.zeros((nb_rep,len(F_values),len(dt_obs_values)))
 ll_An_middle_mean = np.zeros((nb_rep,len(F_values),len(dt_obs_values)))
@@ -189,17 +187,21 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
             ll_An_middle_mean[rep,i_F,i_dt] = np.mean(ll_An_middle)
             
 
-""" === Sauvegarde === """
-DAT = {"rmse_all":rmse_all,
-       "rmse_An_all":rmse_An_all,
-       "rmse_An_middle":rmse_An_middle,
-       "NB_ANALOGS":NB_ANALOGS,
-       "NB_ANALOGS_middle":NB_ANALOGS_middle}
-if save_res:
-    filename = 'ForecastRMSE.pkl'
-    f = open(filename,"wb")
-    pickle.dump(DAT,f)
-    f.close()
+            """ === Sauvegarde === """
+            DAT = {"rmse_all":rmse_all,
+                   "rmse_An_all":rmse_An_all,
+                   "rmse_An_middle":rmse_An_middle,
+                   "NB_ANALOGS":NB_ANALOGS,
+                   "NB_ANALOGS_middle":NB_ANALOGS_middle,
+                   "NB_ANALOGS_ll":NB_ANALOGS_ll,
+                   "NB_ANALOGS_ll_middle":NB_ANALOGS_ll_middle,
+                   "ll_An_all_mean": ll_An_all_mean,
+                   "ll_An_middle_mean": ll_An_middle_mean}
+            if save_res:
+                filename = 'ForecastRMSE.pkl'
+                f = open(filename,"wb")
+                pickle.dump(DAT,f)
+                f.close()
     
 load_res = False
 #load_res = True
@@ -232,6 +234,10 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
     plt.fill_between(F_values, IC_min,IC_max,
                             color="red", alpha=0.2)
     plt.plot(F_values,np.array([np.mean(rmse_An_all[:,i_F,i_dt]) for i_F in range(len(F_values))]),"r*-",label="LLR (5 components)")
+    IC_min = np.array([np.quantile(rmse_An_middle[:,i_F,i_dt],0.025) for i_F in range(len(F_values))])
+    IC_max = np.array([np.quantile(rmse_An_middle[:,i_F,i_dt],0.975) for i_F in range(len(F_values))])
+    plt.fill_between(F_values, IC_min,IC_max,
+                            color="orange", alpha=0.2)
     plt.plot(F_values,np.array([np.mean(rmse_An_middle[:,i_F,i_dt]) for i_F in range(len(F_values))]),"r*:",label="LLR (1 component)")
     plt.grid()
     plt.xlabel("F value",size = 20)

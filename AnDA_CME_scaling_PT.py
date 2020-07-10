@@ -30,7 +30,7 @@ nb_dt = 4 # number of dt for the forecast (nb_dt x 0.05 in L96 times)
 nb_Ne = 500 # number of ensembles
 K = 200 # maximum number of times to compute CME
 N_iter = 10 # number of independant observation sets to get confidence intervals
-variance_obs = 1 # variance of the observations
+variance_obs = 0.0001 # variance of the observations
 
 
 # In[7]:
