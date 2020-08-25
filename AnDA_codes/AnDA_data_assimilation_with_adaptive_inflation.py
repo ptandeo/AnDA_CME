@@ -12,6 +12,7 @@ import numpy as np
 from scipy.stats import multivariate_normal
 from AnDA_codes.AnDA_stat_functions import resampleMultinomial, inv_using_SVD
 from tqdm import tqdm
+import math
 
 def AnDA_data_assimilation(yo, DA):
     """ Apply stochastic and sequential data assimilation technics using model forecasting or analog forecasting. """
