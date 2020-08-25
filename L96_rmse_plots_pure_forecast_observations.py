@@ -38,7 +38,8 @@ nb_analogs = [100,150,200,250,300,350,400,450,500]
 
 dt_states = 1 # number of integration times between consecutive states (for xt and catalog)
 dt_obs = 1 # number of integration times between consecutive observations (for yo)
-dt_state = dt_obs
+dt_obs_g = 1 # number of integration times between consecutive observations (for yo)
+dt_states = dt_obs
 save_res, save_fig = True, False
 
 # # parameters
@@ -85,7 +86,7 @@ NB_ANALOGS_ll, NB_ANALOGS_ll_middle = np.zeros((nb_rep,len(F_values),len(dt_obs_
 
 T = xt.values.shape[0]
 for i_dt, dt_obs in enumerate(dt_obs_values):
-    dt_state = dt_obs
+    dt_states = dt_obs
     class GD:  
         model = 'Lorenz_96'
         class parameters:
@@ -100,12 +101,15 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
         sigma2_catalog = 0.001 # variance of the model error to generate the catalog   
         sigma2_obs = 1 # variance of the observation error to generate observations  
 
-    catalog_good, xt_long, yo = AnDA_generate_data(GD,seed=False) 
+    catalog_good, xt_long, yo_long = AnDA_generate_data(GD,seed=False) 
     
     for rep in tqdm(range(nb_rep)):
         T_rep = np.int(nb_loop_test*dt_obs/GD.dt_integration)
         class xt:
             values = xt_long.values[(rep*T_rep):((rep+1)*T_rep),:]
+            times = np.arange(T_rep)
+        class yo:
+            values = yo_long.values[(rep*T_rep):((rep+1)*T_rep),:]
             times = np.arange(T_rep)
     
         for i_F,F_bad in enumerate(F_values):
@@ -160,35 +164,31 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
                 print("Best nb analogs (LL, component 19)",res_bad["k_best_ll_middle"])
 
             
-            NB_ANALOGS[rep,i_F,i_dt] =  res_bad["k_best"] 
-            NB_ANALOGS_middle[rep,i_F,i_dt] =  nb_analogs[np.where(m_tmp==np.min(m_tmp))[0][0]] 
-            NB_ANALOGS_ll[rep,i_F,i_dt] =  res_bad["k_best_ll"] 
-            NB_ANALOGS_ll_middle[rep,i_F,i_dt] =  res_bad["k_best_ll_middle"] 
+                NB_ANALOGS[rep,i_F,i_dt] =  res_bad["k_best"] 
+                NB_ANALOGS_middle[rep,i_F,i_dt] =  nb_analogs[np.where(m_tmp==np.min(m_tmp))[0][0]] 
+                NB_ANALOGS_ll[rep,i_F,i_dt] =  res_bad["k_best_ll"] 
+                NB_ANALOGS_ll_middle[rep,i_F,i_dt] =  res_bad["k_best_ll_middle"] 
     
     
-            x_pred, x_pred_An, x_pred_An_middle  = 0.*xt.values, 0.*xt.values[:,17:22], 0.*xt.values[:,17:22]
+            x_pred_An, x_pred_An_middle  = 0.*xt.values[:,17:22], 0.*xt.values[:,17:22]
             cov_An, cov_An_middle  = np.zeros((xt.values.shape[0],n,n)), np.zeros((xt.values.shape[0],n,n))
 #            for i in range(xt.values[0:-1:dt_obs,:].shape[0]):
             for i in range(xt.values[0:-1,:].shape[0]):
-                x0 = xt.values[i,:]
-                S = odeint(AnDA_Lorenz_96,x0,np.arange(0.0,GD_bad.dt_integration+0.000001,GD.dt_integration),\
-                           args=(F_bad,GD_bad.parameters.J));       
-                x_pred[i+1,:] = S[-1,:]
+                x0 = yo.values[i,:]
                 xf_An, x_pred_An[i+1,:], cov_An[i+1,:,:]  = AnDA_analog_forecasting(x0[17:22].reshape((1,n)), AF)
                 xf_An, x_pred_An_middle[i+1,:], cov_An_middle[i+1,:,:]  = AnDA_analog_forecasting(x0[17:22].reshape((1,n)), AF_middle)
-            ll_An_all = [multivariate_normal.pdf(xt.values[t,17:22], mean=x_pred_An[t,:], cov=cov_An[t,:,:]) for t in range(1,T_rep)]
-            ll_An_middle = [multivariate_normal.pdf(xt.values[t,19], mean=x_pred_An[t,2], cov=cov_An[t,2,2]) for t in range(1,T_rep)]
+            ll_An_all = [multivariate_normal.pdf(xt.values[t,17:22], mean=x_pred_An[t,:], cov=cov_An[t,:,:]) for t in range(1,x_pred_An.shape[0])]
+            ll_An_middle = [multivariate_normal.pdf(xt.values[t,19], mean=x_pred_An[t,2], cov=cov_An[t,2,2]) for t in range(1,x_pred_An.shape[0])]
     
-            rmse_all[rep,i_F,i_dt]  = np.sqrt(np.mean((xt.values[0::np.max(dt_obs_values),:]-x_pred[0::np.max(dt_obs_values),:])**2))
-            rmse_An_all[rep,i_F,i_dt]  = np.sqrt(np.mean((xt.values[1:,17:22]-x_pred_An[1:,:])**2))
-            rmse_An_middle[rep,i_F,i_dt]  = np.sqrt(np.mean((xt.values[1:,19]-x_pred_An_middle[1:,2])**2))
+            rmse_An_all[rep,i_F,i_dt]  = np.sqrt(np.mean((yo.values[1:,17:22]-x_pred_An[1:,:])**2))
+            rmse_An_middle[rep,i_F,i_dt]  = np.sqrt(np.mean((yo.values[1:,19]-x_pred_An_middle[1:,2])**2))
             
             ll_An_all_mean[rep,i_F,i_dt] = np.mean(ll_An_all)
             ll_An_middle_mean[rep,i_F,i_dt] = np.mean(ll_An_middle)
             
 
             """ === Sauvegarde === """
-            DAT = {"rmse_all":rmse_all,
+            DAT = {
                    "rmse_An_all":rmse_An_all,
                    "rmse_An_middle":rmse_An_middle,
                    "NB_ANALOGS":NB_ANALOGS,
@@ -198,7 +198,7 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
                    "ll_An_all_mean": ll_An_all_mean,
                    "ll_An_middle_mean": ll_An_middle_mean}
             if save_res:
-                filename = 'ForecastRMSE_no_nb_analog_optim.pkl'
+                filename = 'ForecastRMSE_observations_no_nb_analog_optim.pkl'
                 f = open(filename,"wb")
                 pickle.dump(DAT,f)
                 f.close()
@@ -222,29 +222,29 @@ for i_dt, dt_obs in enumerate(dt_obs_values):
     print(i_dt)
     plt.figure(i_dt,figsize =(9,9))
     plt.clf()
-    IC_min = np.array([np.quantile(rmse_all[:,i_F,0],0.025) for i_F in range(len(F_values))])
-    IC_max = np.array([np.quantile(rmse_all[:,i_F,0],0.975) for i_F in range(len(F_values))])
-    plt.fill_between(F_values, IC_min,IC_max,
-                            color="black", alpha=0.2)
-    plt.plot(F_values,np.array([np.mean(rmse_all[:,i_F,0]) for i_F in range(len(F_values))]),"ko-",label="ode (All components)")
+   # IC_min = np.array([np.quantile(rmse_all[:,i_F,0],0.025) for i_F in range(len(F_values))])
+   # IC_max = np.array([np.quantile(rmse_all[:,i_F,0],0.975) for i_F in range(len(F_values))])
+   # plt.fill_between(F_values, IC_min,IC_max,
+    #                        color="black", alpha=0.2)
+    #plt.plot(F_values,np.array([np.mean(rmse_all[:,i_F,0]) for i_F in range(len(F_values))]),"ko-",label="ode (All components)")
     #plt.plot(F_values,np.array([np.mean(rmse_middle[:,i_F]) for i_F in range(len(F_values))]),"kd:",label="ode")
     
-    IC_min = np.array([np.quantile(rmse_An_all[:,i_F,i_dt],0.025) for i_F in range(len(F_values))])
-    IC_max = np.array([np.quantile(rmse_An_all[:,i_F,i_dt],0.975) for i_F in range(len(F_values))])
+    IC_min = np.array([np.quantile(rmse_An_all[:3,i_F,i_dt],0.025) for i_F in range(len(F_values))])
+    IC_max = np.array([np.quantile(rmse_An_all[:3,i_F,i_dt],0.975) for i_F in range(len(F_values))])
     plt.fill_between(F_values, IC_min,IC_max,
                             color="red", alpha=0.2)
-    plt.plot(F_values,np.array([np.mean(rmse_An_all[:,i_F,i_dt]) for i_F in range(len(F_values))]),"r*-",label="LLR (5 components)")
-    IC_min = np.array([np.quantile(rmse_An_middle[:,i_F,i_dt],0.025) for i_F in range(len(F_values))])
-    IC_max = np.array([np.quantile(rmse_An_middle[:,i_F,i_dt],0.975) for i_F in range(len(F_values))])
+    plt.plot(F_values,np.array([np.mean(rmse_An_all[:3,i_F,i_dt]) for i_F in range(len(F_values))]),"r*-",label="LLR (5 components)")
+    IC_min = np.array([np.quantile(rmse_An_middle[:3,i_F,i_dt],0.025) for i_F in range(len(F_values))])
+    IC_max = np.array([np.quantile(rmse_An_middle[:3,i_F,i_dt],0.975) for i_F in range(len(F_values))])
     plt.fill_between(F_values, IC_min,IC_max,
                             color="orange", alpha=0.2)
-    plt.plot(F_values,np.array([np.mean(rmse_An_middle[:,i_F,i_dt]) for i_F in range(len(F_values))]),"r*:",label="LLR (1 component)")
+    plt.plot(F_values,np.array([np.mean(rmse_An_middle[:3,i_F,i_dt]) for i_F in range(len(F_values))]),"r*:",label="LLR (1 component)")
     plt.grid()
     plt.xlabel("F value",size = 20)
     plt.ylabel("1 step ahead forecast RMSE",size = 16)
     plt.title("Lorenz 96 (dt = "+str(0.05*dt_obs)+")",size = 20)
     plt.legend()
-    if save_fig: plt.savefig("RMSE_forecast_F_5to11_dt_obs_"+str(dt_obs)+".png", bbox_inches='tight', dpi=400)
+    if save_fig: plt.savefig("RMSE_forecast_F_5to11_dt_obs_"+str(dt_obs)+"_observations_no_nb_analog_optim.png", bbox_inches='tight', dpi=400)
 
 # for i_dt, dt_obs in enumerate(dt_obs_values):
 #     print(i_dt)

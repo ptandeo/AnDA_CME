@@ -38,6 +38,7 @@ def AnDA_data_assimilation(yo, DA):
             self.weights = weights
             self.values  = values
             self.loglik  = loglik
+            self.loglik_center = loglik*0.
             self.ll_PF_like  = loglik*0.
             self.time    = time
             self.cov     = cov
@@ -82,6 +83,11 @@ def AnDA_data_assimilation(yo, DA):
                 # compute likelihood
                 innov_ll = np.mean(np.repeat(yo.values[k,i_var_obs][np.newaxis],DA.N,0)-yf,0)
                 loglik = -0.5*(np.dot(np.dot(innov_ll.T,SIGMA_INV),innov_ll))-0.5*(n*np.log(2*np.pi)+np.log(np.linalg.det(SIGMA)))
+
+                # compute likelihood (central location)
+                i_middle_ll = math.floor(len(innov_ll)/2)+1
+                loglik_center = -0.5*(np.dot(np.dot(innov_ll[i_middle_ll].T,SIGMA_INV[i_middle_ll,i_middle_ll]),innov_ll[i_middle_ll]))-0.5*(n*np.log(2*np.pi)+np.log(SIGMA[i_middle_ll,i_middle_ll]))
+
                 for i_N in range(0,DA.N):
                     weights_tmp[i_N] = multivariate_normal.pdf(yo.values[k,i_var_obs].T,np.dot(DA.H[i_var_obs,:],xf[i_N,:].T),DA.R[np.ix_(i_var_obs,i_var_obs)]);
             else:
@@ -103,6 +109,7 @@ def AnDA_data_assimilation(yo, DA):
             x_hat.loglik[k] = loglik
             x_hat.cov[k,:,:,:] = xf_cov_tmp
             x_hat.ll_PF_like[k] = np.log(np.sum(weights_tmp))
+            x_hat.loglik_center[k] = loglik_center
         x_hat.Pf = Pf
         
 
